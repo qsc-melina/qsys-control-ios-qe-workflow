@@ -4,7 +4,7 @@ description: Generate a QE Test Plan for a Q-SYS iOS Viewer feature
 
 Generate a structured manual QE Test Plan for a Q-SYS iOS Viewer feature.
 
-The output is a single `test-plan.md` — human-readable, markdown-based, covering scope, test approach, environment, high-level scenarios, pass/fail criteria, and risks.
+The output is a single `02-test-plan.md` — human-readable, markdown-based, covering scope, test approach, environment, high-level scenarios, pass/fail criteria, and risks.
 
 ---
 
@@ -25,7 +25,7 @@ Follow the `qe-test-plan` skill instructions exactly. In summary:
 9. Define pass/fail criteria
 10. Identify 2–5 risks with mitigations
 11. Write the document using `templates/test-plan.md` as the structure
-12. Save as `test-plan.md` in the appropriate directory
+12. Save as `02-test-plan.md` in the appropriate directory
 13. Show completion summary with scenario count and next step
 
 **Next step after this command**: Run `/qe:test-cases` to generate detailed step-by-step test cases from this plan.

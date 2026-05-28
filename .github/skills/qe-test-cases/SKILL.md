@@ -134,7 +134,7 @@ Use the template from `templates/test-case.md`.
 
 Save as:
 ```
-<output-dir>/test-cases.md
+<output-dir>/03-test-cases.md
 ```
 
 Where `<output-dir>` is:

@@ -160,7 +160,7 @@ The output document includes:
 
 Save as:
 ```
-<output-dir>/jira-story.md
+<output-dir>/01-jira-story.md
 ```
 
 Where `<output-dir>` is:

@@ -132,7 +132,7 @@ Write in the third person from the tester's perspective.
 
 Save as:
 ```
-<output-dir>/test-plan.md
+<output-dir>/02-test-plan.md
 ```
 
 Where `<output-dir>` is:

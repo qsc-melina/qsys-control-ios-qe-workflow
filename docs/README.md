@@ -87,11 +87,13 @@ Templates use `{{PLACEHOLDER}}` syntax. All placeholders are described in the te
 
 Located in [`examples/`](../examples/), grouped by feature:
 
-| Feature | Test Plan | Test Cases | Regression Scope | Jira Story |
+| Feature | Jira Story | Test Plan | Test Cases | Regression Scope |
 |---|---|---|---|---|
-| Device Discovery | [`test-plan.md`](../examples/device-discovery/test-plan.md) | [`test-cases.md`](../examples/device-discovery/test-cases.md) | [`regression-scope.md`](../examples/device-discovery/regression-scope.md) | [`jira-story.md`](../examples/device-discovery/jira-story.md) |
-| Popup Visibility & Layer Transitions | [`test-plan.md`](../examples/popup-visibility/test-plan.md) | [`test-cases.md`](../examples/popup-visibility/test-cases.md) | [`regression-scope.md`](../examples/popup-visibility/regression-scope.md) | [`jira-story.md`](../examples/popup-visibility/jira-story.md) |
-| Session Recovery & Reconnect | [`test-plan.md`](../examples/session-recovery/test-plan.md) | [`test-cases.md`](../examples/session-recovery/test-cases.md) | [`regression-scope.md`](../examples/session-recovery/regression-scope.md) | [`jira-story.md`](../examples/session-recovery/jira-story.md) |
+| Device Discovery | [`01-jira-story.md`](../examples/device-discovery/01-jira-story.md) | [`02-test-plan.md`](../examples/device-discovery/02-test-plan.md) | [`03-test-cases.md`](../examples/device-discovery/03-test-cases.md) | [`04-regression-scope.md`](../examples/device-discovery/04-regression-scope.md) |
+| Popup Visibility & Layer Transitions | [`01-jira-story.md`](../examples/popup-visibility/01-jira-story.md) | [`02-test-plan.md`](../examples/popup-visibility/02-test-plan.md) | [`03-test-cases.md`](../examples/popup-visibility/03-test-cases.md) | [`04-regression-scope.md`](../examples/popup-visibility/04-regression-scope.md) |
+| Session Recovery & Reconnect | [`01-jira-story.md`](../examples/session-recovery/01-jira-story.md) | [`02-test-plan.md`](../examples/session-recovery/02-test-plan.md) | [`03-test-cases.md`](../examples/session-recovery/03-test-cases.md) | [`04-regression-scope.md`](../examples/session-recovery/04-regression-scope.md) |
+| SVG Rendering | [`01-jira-story.md`](../examples/svg-rendering/01-jira-story.md) | [`02-test-plan.md`](../examples/svg-rendering/02-test-plan.md) | [`03-test-cases.md`](../examples/svg-rendering/03-test-cases.md) | [`04-regression-scope.md`](../examples/svg-rendering/04-regression-scope.md) |
+| Shared Layer Navigation | [`01-jira-story.md`](../examples/shared-layer-navigation/01-jira-story.md) | [`02-test-plan.md`](../examples/shared-layer-navigation/02-test-plan.md) | [`03-test-cases.md`](../examples/shared-layer-navigation/03-test-cases.md) | [`04-regression-scope.md`](../examples/shared-layer-navigation/04-regression-scope.md) |
 
 ---
 

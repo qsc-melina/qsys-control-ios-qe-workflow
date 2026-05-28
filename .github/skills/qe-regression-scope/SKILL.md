@@ -144,7 +144,7 @@ Mark any section as `TBD` if the information is not available at document creati
 
 Save as:
 ```
-<output-dir>/regression-scope.md
+<output-dir>/04-regression-scope.md
 ```
 
 Where `<output-dir>` is:

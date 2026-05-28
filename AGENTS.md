@@ -92,28 +92,46 @@ Worked examples are stored in `examples/` at the repository root, grouped by fea
 
 | Example | Path |
 |---|---|
-| Test Plan | [`examples/device-discovery/test-plan.md`](examples/device-discovery/test-plan.md) |
-| Test Cases | [`examples/device-discovery/test-cases.md`](examples/device-discovery/test-cases.md) |
-| Regression Scope | [`examples/device-discovery/regression-scope.md`](examples/device-discovery/regression-scope.md) |
-| Jira Story | [`examples/device-discovery/jira-story.md`](examples/device-discovery/jira-story.md) |
+| Jira Story | [`examples/device-discovery/01-jira-story.md`](examples/device-discovery/01-jira-story.md) |
+| Test Plan | [`examples/device-discovery/02-test-plan.md`](examples/device-discovery/02-test-plan.md) |
+| Test Cases | [`examples/device-discovery/03-test-cases.md`](examples/device-discovery/03-test-cases.md) |
+| Regression Scope | [`examples/device-discovery/04-regression-scope.md`](examples/device-discovery/04-regression-scope.md) |
 
 ### Popup Visibility and Layer Transition Behavior
 
 | Example | Path |
 |---|---|
-| Test Plan | [`examples/popup-visibility/test-plan.md`](examples/popup-visibility/test-plan.md) |
-| Test Cases | [`examples/popup-visibility/test-cases.md`](examples/popup-visibility/test-cases.md) |
-| Regression Scope | [`examples/popup-visibility/regression-scope.md`](examples/popup-visibility/regression-scope.md) |
-| Jira Story | [`examples/popup-visibility/jira-story.md`](examples/popup-visibility/jira-story.md) |
+| Jira Story | [`examples/popup-visibility/01-jira-story.md`](examples/popup-visibility/01-jira-story.md) |
+| Test Plan | [`examples/popup-visibility/02-test-plan.md`](examples/popup-visibility/02-test-plan.md) |
+| Test Cases | [`examples/popup-visibility/03-test-cases.md`](examples/popup-visibility/03-test-cases.md) |
+| Regression Scope | [`examples/popup-visibility/04-regression-scope.md`](examples/popup-visibility/04-regression-scope.md) |
 
 ### Session Recovery and Reconnect
 
 | Example | Path |
 |---|---|
-| Test Plan | [`examples/session-recovery/test-plan.md`](examples/session-recovery/test-plan.md) |
-| Test Cases | [`examples/session-recovery/test-cases.md`](examples/session-recovery/test-cases.md) |
-| Regression Scope | [`examples/session-recovery/regression-scope.md`](examples/session-recovery/regression-scope.md) |
-| Jira Story | [`examples/session-recovery/jira-story.md`](examples/session-recovery/jira-story.md) |
+| Jira Story | [`examples/session-recovery/01-jira-story.md`](examples/session-recovery/01-jira-story.md) |
+| Test Plan | [`examples/session-recovery/02-test-plan.md`](examples/session-recovery/02-test-plan.md) |
+| Test Cases | [`examples/session-recovery/03-test-cases.md`](examples/session-recovery/03-test-cases.md) |
+| Regression Scope | [`examples/session-recovery/04-regression-scope.md`](examples/session-recovery/04-regression-scope.md) |
+
+### SVG Rendering
+
+| Example | Path |
+|---|---|
+| Jira Story | [`examples/svg-rendering/01-jira-story.md`](examples/svg-rendering/01-jira-story.md) |
+| Test Plan | [`examples/svg-rendering/02-test-plan.md`](examples/svg-rendering/02-test-plan.md) |
+| Test Cases | [`examples/svg-rendering/03-test-cases.md`](examples/svg-rendering/03-test-cases.md) |
+| Regression Scope | [`examples/svg-rendering/04-regression-scope.md`](examples/svg-rendering/04-regression-scope.md) |
+
+### Shared Layer Navigation
+
+| Example | Path |
+|---|---|
+| Jira Story | [`examples/shared-layer-navigation/01-jira-story.md`](examples/shared-layer-navigation/01-jira-story.md) |
+| Test Plan | [`examples/shared-layer-navigation/02-test-plan.md`](examples/shared-layer-navigation/02-test-plan.md) |
+| Test Cases | [`examples/shared-layer-navigation/03-test-cases.md`](examples/shared-layer-navigation/03-test-cases.md) |
+| Regression Scope | [`examples/shared-layer-navigation/04-regression-scope.md`](examples/shared-layer-navigation/04-regression-scope.md) |
 
 ---
 
@@ -156,20 +174,30 @@ Worked examples are stored in `examples/` at the repository root, grouped by fea
     └── qe-test-plan/SKILL.md
 examples/
 ├── device-discovery/
-│   ├── jira-story.md
-│   ├── regression-scope.md
-│   ├── test-cases.md
-│   └── test-plan.md
+│   ├── 01-jira-story.md
+│   ├── 02-test-plan.md
+│   ├── 03-test-cases.md
+│   └── 04-regression-scope.md
 ├── popup-visibility/
-│   ├── jira-story.md
-│   ├── regression-scope.md
-│   ├── test-cases.md
-│   └── test-plan.md
-└── session-recovery/
-    ├── jira-story.md
-    ├── regression-scope.md
-    ├── test-cases.md
-    └── test-plan.md
+│   ├── 01-jira-story.md
+│   ├── 02-test-plan.md
+│   ├── 03-test-cases.md
+│   └── 04-regression-scope.md
+├── session-recovery/
+│   ├── 01-jira-story.md
+│   ├── 02-test-plan.md
+│   ├── 03-test-cases.md
+│   └── 04-regression-scope.md
+├── svg-rendering/
+│   ├── 01-jira-story.md
+│   ├── 02-test-plan.md
+│   ├── 03-test-cases.md
+│   └── 04-regression-scope.md
+└── shared-layer-navigation/
+    ├── 01-jira-story.md
+    ├── 02-test-plan.md
+    ├── 03-test-cases.md
+    └── 04-regression-scope.md
 templates/
 ├── jira-story.md
 ├── regression-scope.md

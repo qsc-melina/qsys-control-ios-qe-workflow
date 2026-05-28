@@ -344,12 +344,12 @@ Each skill produces a specific output file. Names are fixed to support composabi
 
 | Artifact | File name | Produced by |
 |---|---|---|
-| QE Test Plan | `test-plan.md` | `qe-test-plan` |
-| QE Test Cases | `test-cases.md` | `qe-test-cases` |
-| Regression Scope | `regression-scope.md` | `qe-regression-scope` |
-| Jira Story | `jira-story.md` | `qe-jira-stories` |
+| Jira Story | `01-jira-story.md` | `qe-jira-stories` |
+| QE Test Plan | `02-test-plan.md` | `qe-test-plan` |
+| QE Test Cases | `03-test-cases.md` | `qe-test-cases` |
+| Regression Scope | `04-regression-scope.md` | `qe-regression-scope` |
 
-All four files for a feature live in the same directory. In the `examples/` folder, this is `examples/<feature-slug>/`. In an OpenSpec workflow, this is `openspec/changes/<change-name>/`.
+All four files for a feature live in the same directory. The numeric prefix (`01-`, `02-`, `03-`, `04-`) controls the display order in the file explorer: Jira Story → Test Plan → Test Cases → Regression Scope. In the `examples/` folder, this is `examples/<feature-slug>/`. In an OpenSpec workflow, this is `openspec/changes/<change-name>/`.
 
 ---
 

@@ -4,7 +4,7 @@ description: Generate a Jira story for a Q-SYS iOS Viewer QE effort
 
 Generate a Jira story document for a Q-SYS iOS Viewer QE effort.
 
-The output is a `jira-story.md` — structured with Jira metadata, description, acceptance criteria, and sub-tasks. Ready to copy-paste into Jira.
+The output is a `01-jira-story.md` — structured with Jira metadata, description, acceptance criteria, and sub-tasks. Ready to copy-paste into Jira.
 
 ---
 
@@ -15,7 +15,7 @@ The output is a `jira-story.md` — structured with Jira metadata, description, 
 Follow the `qe-jira-stories` skill instructions exactly. In summary:
 
 1. Read the feature name or artifact paths from the user's input (after the slash command)
-2. Check for `test-plan.md` and `test-cases.md` in the current directory
+2. Check for `02-test-plan.md` and `03-test-cases.md` in the current directory
 3. If artifacts exist, read them to populate context, scope, environment, and case counts
 4. Determine story type: Test Planning | Test Execution | Defect Investigation | QE Sign-Off
 5. Derive story metadata:
@@ -27,7 +27,7 @@ Follow the `qe-jira-stories` skill instructions exactly. In summary:
 8. Generate Sub-Tasks (ST-01 through ST-08) based on story type
 9. Write Definition of Done checklist
 10. Use `templates/jira-story.md` as the structure
-11. Save as `jira-story.md` in the appropriate directory
+11. Save as `01-jira-story.md` in the appropriate directory
 12. Show completion summary with point estimate and tips for Jira import
 
 **Tip**: Copy the Metadata block into the Jira story creation form. Copy the Description section into the Jira Description field.
